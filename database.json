@@ -1,0 +1,60 @@
+{
+  "keywordReplies": [
+    {
+      "keywords": ["hours", "open", "close", "when"],
+      "reply": "We're open Mon-Fri 9am-6pm and Sat 10am-4pm. Check our website for holiday hours! 🕐"
+    },
+    {
+      "keywords": ["address", "where", "location", "directions"],
+      "reply": "Send us a DM and we'll send you our full address and directions. Free parking available! 📍"
+    },
+    {
+      "keywords": ["price", "cost", "how much", "pricing"],
+      "reply": "Pricing depends on your needs. DM us or visit our page for a full price list! 💬"
+    },
+    {
+      "keywords": ["email", "phone", "contact", "call"],
+      "reply": "You can reach us via DM anytime! We reply within 24 hours. 📩"
+    },
+    {
+      "keywords": ["book", "appointment", "schedule", "reserve"],
+      "reply": "Send us a DM to book your appointment — we'd love to have you! 📅"
+    },
+    {
+      "keywords": ["shipping", "deliver", "delivery", "ship", "how long", "arrive"],
+      "reply": "We ship nationwide! Standard 3-5 days, Express 1-2 days. DM us for more details. 📦"
+    },
+    {
+      "keywords": ["return", "refund", "exchange"],
+      "reply": "We have a 30-day return policy. DM us with your order number and we'll help right away! 🔄"
+    },
+    {
+      "keywords": ["available", "in stock", "stock", "order", "buy", "purchase"],
+      "reply": "Yes, it's available! Send us a message to place your order. 🛍️"
+    },
+    {
+      "keywords": ["wholesale", "bulk", "reseller", "distributor"],
+      "reply": "We do offer wholesale options! Please send us a DM for more details. 📩"
+    },
+    {
+      "keywords": ["cod", "cash on delivery", "payment", "pay", "gcash", "maya"],
+      "reply": "We accept multiple payment methods including COD! Message us for more details. 💳"
+    }
+  ],
+  "humanInterventionTriggers": {
+    "complaints": [
+      "scam", "fraud", "terrible", "disgusting", "worst ever",
+      "broken", "defective", "damaged", "wrong item", "never arrived",
+      "lost", "missing", "angry", "furious", "unacceptable",
+      "bad experience", "poor quality", "disappointed", "horrible"
+    ],
+    "complexQuestions": [
+      "lawyer", "sue", "legal action", "report you", "complaint department",
+      "emergency", "urgent", "asap", "help me now", "not working",
+      "lawsuit", "attorney", "fda", "investigation",
+      "allergy", "allergic", "react", "rash", "medical", "doctor",
+      "hospital", "side effect", "expired", "toxic", "poison",
+      "dangerous", "injury", "hurt"
+    ]
+  }
+}
