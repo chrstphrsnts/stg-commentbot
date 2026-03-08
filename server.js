@@ -9,8 +9,7 @@
 //
 // IMPORTANT: Put your Anthropic API key below (keep this file private!)
 
-const API_KEY = "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";
-
+const API_KEY = process.env.ANTHROPIC_API_KEY;
 // ─────────────────────────────────────────────
 // No changes needed below this line
 // ─────────────────────────────────────────────
