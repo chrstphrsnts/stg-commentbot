@@ -375,7 +375,7 @@ Return ONLY a valid JSON array, no markdown, no extra text:
 ]`;
 
       try {
-        const res = await fetch("http://localhost:3000/api/messages", {
+        const res = await fetch("/api/messages", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
