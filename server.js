@@ -18,7 +18,7 @@ const http = require("http");
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   // CORS headers for all responses
